@@ -10,7 +10,7 @@ def hello():
 
 
 @app.route("/name")
-def hello():
+def name():
     return jsonify({"message": "URL name"})
 
 
